@@ -12,7 +12,7 @@ value, the closer we are zoomed in. The center is a complex number specifying wh
 fractal will be at the image's center. The images are rendered in full hd.
 
 Each pixel's color is determined by how often the function f<sub>c</sub>(z)=z<sup>2</sup>+c
-can be applied without diverging (i.e. abs(z) < 2.0). Those iterations are massively parallelizable
+can be applied without diverging (i.e. abs(z) < 2.0). These iterations are massively parallelizable
 and therefore run on the GPU to gain a significant speed boost using NVIDIA CUDA technology. This means
 you need a CUDA-compatible GPU to be able to run this program.
 
