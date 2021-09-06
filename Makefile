@@ -1,6 +1,7 @@
 CC 	:= nvcc
 TARGET 	:= mandelbrot
 
+CFLAGS 	:= -O2
 SOURCES := $(shell find . -type f -name "*.cu")
 
 .PHONY: all clean
